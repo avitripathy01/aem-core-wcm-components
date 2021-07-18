@@ -1,17 +1,8 @@
 package com.adobe.cq.wcm.core.components.internal.filters;
 
-import com.adobe.cq.wcm.core.components.internal.form.FormConstants;
-import com.adobe.cq.wcm.core.components.internal.servlets.CoreFormHandlingServlet;
-import com.adobe.cq.wcm.core.components.internal.servlets.SearchResultServlet;
 import org.osgi.service.component.annotations.Component;
-
 import javax.servlet.*;
-
 import java.io.IOException;
-
-import static org.apache.sling.engine.EngineConstants.*;
-
-
 
 @Component(
     service = {Servlet.class, Filter.class},
